@@ -1,0 +1,36 @@
+.posts{
+    display:flex;
+    justify-content: center;
+}
+.top-image{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.hidden{
+    display:none !important ;
+}
+.show{
+    display:block;
+}
+.multiple-posts{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    margin:1rem 0;
+}
+.button-container button{
+    border:none;
+    background-color: white;
+}
+.nav{
+    display:flex;
+    justify-content: space-between !important;
+    width:100%;
+    color:black;
+}
